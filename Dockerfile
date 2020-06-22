@@ -8,10 +8,6 @@ RUN chmod +x kubectl
 RUN mv kubectl /usr/local/bin/kubectl
 # install jobs
 COPY --chown=jenkins:jenkins jobs /var/jenkins_home/jobs
-
-#RUN apt-get update
-#RUN apt-get install -y python3 python3-pip
-#RUN apt-get install -y wget vim
-#RUN apt-get install -y python3-pexpect
-#USER jenkins
-
+# install app
+RUN apt-get update
+RUN apt-get install -y vim wget
