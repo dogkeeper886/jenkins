@@ -1,3 +1,3 @@
 # jenkins
-this is a dockerfile hook to dockerhub for rinning jenkins in kubernetes environment.
-run kubectl at jenkins pod to separate jenkins and python script environment.
+this is a jenkins pod repo. hook jenkins and python-client to dockerhub.
+for running jenkins in kubernetes environment, apply deployment and service file.
