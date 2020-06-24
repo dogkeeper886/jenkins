@@ -7,7 +7,7 @@ RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s 
 RUN chmod +x kubectl
 RUN mv kubectl /usr/local/bin/kubectl
 # install jobs
-COPY --chown=jenkins:jenkins jobs /var/jenkins_home/jobs
+COPY --chown=jenkins:jenkins jenkins/jobs /var/jenkins_home/jobs
 # install app
 RUN apt-get update
 RUN apt-get install -y vim wget
