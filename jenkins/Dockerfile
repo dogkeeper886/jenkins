@@ -10,4 +10,4 @@ RUN mv kubectl /usr/local/bin/kubectl
 COPY --chown=jenkins:jenkins jenkins/jobs /var/jenkins_home/jobs
 # install app
 RUN apt-get update
-RUN apt-get install -y vim wget
+RUN apt-get install -y vim rsync wget

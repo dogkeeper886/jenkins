@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\deployment",
+    "\\jenkins",
+    "\\python-client"
   ],
-  "SelectedNode": "\\Dockerfile",
+  "SelectedNode": "\\python-client",
   "PreviewInSolutionExplorer": false
 }
