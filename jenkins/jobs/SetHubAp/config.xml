@@ -34,16 +34,11 @@
   <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.80">
     <script>pipeline {
     agent any
-    environment {
-        PYTHON_CLIENT_NAME= sh (returnStdout: true, script: &apos;kubectl get pods | awk \&apos;/python/{print $1}\&apos;&apos;).trim()
-    }
-
     stages {
         stage(&apos;SetHubAp&apos;) {
             steps {
                 echo &apos;Hello World&apos;
-                sh label: &apos;&apos;, script: &apos;echo $PYTHON_CLIENT_NAME&apos;
-                sh label: &apos;&apos;, script: &apos;kubectl exec $PYTHON_CLIENT_NAME -- python /pexpect/ap-set-hub.py $ApIp&apos;
+                sh label: &apos;&apos;, script: &apos;kubectl exec $HOSTNAME --container python-client -- python /pexpect/ap-set-hub.py $ApIp&apos;
             }
         }
     }
