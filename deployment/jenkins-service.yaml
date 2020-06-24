@@ -6,14 +6,14 @@ metadata:
   name: jenkins
 spec:
   ports:
-  - port: 8080
-    protocol: TCP
-    targetPort: 8080
-    name: jenkins-web
-  - port: 5000
-    protocol: TCP
-    targetPort: 5000
-    name: jenkins-manage
+    - port: 8080
+      protocol: TCP
+      targetPort: 8080
+      name: jenkins-web
+    - port: 5000
+      protocol: TCP
+      targetPort: 5000
+      name: jenkins-manage
   selector:
     app: jenkins
   sessionAffinity: None
