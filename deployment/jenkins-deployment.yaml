@@ -19,6 +19,6 @@ spec:
           name: jenkins
         - image: dogkeeper886/python-client
           name: python-client
-        serviceAccount: jenkins
-        serviceAccountName: jenkins
+      serviceAccount: jenkins
+      serviceAccountName: jenkins
 
