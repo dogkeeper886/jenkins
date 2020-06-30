@@ -15,10 +15,10 @@ spec:
         app: jenkins
     spec:
       containers:
-        - image: dogkeeper886/jenkins
-          name: jenkins
-        - image: dogkeeper886/python-client
-          name: python-client
+      - image: dogkeeper886/jenkins
+        name: jenkins
+      - image: dogkeeper886/python-client
+        name: python-client
       serviceAccount: jenkins
       serviceAccountName: jenkins
 
