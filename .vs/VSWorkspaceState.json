@@ -5,6 +5,6 @@
     "\\jenkins",
     "\\python-client"
   ],
-  "SelectedNode": "\\python-client",
+  "SelectedNode": "\\deployment\\jenkins-deployment.yaml",
   "PreviewInSolutionExplorer": false
 }
