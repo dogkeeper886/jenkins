@@ -29,7 +29,6 @@
       stage(&apos;Kubernetes&apos;) {
          steps {
             echo &apos;Hello World&apos;
-            sh label: &apos;&apos;, script: &apos;kubectl get node&apos;
             sh label: &apos;&apos;, script: &apos;kubectl get deployments&apos;
             sh label: &apos;&apos;, script: &apos;kubectl get pods&apos;
             sh label: &apos;&apos;, script: &apos;kubectl get service&apos;
