@@ -1,9 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\deployment",
+    "\\jenkins",
     "\\jenkins\\jobs\\CheckKubernetes",
-    "\\jenkins\\jobs\\CheckKubernetes\\builds"
+    "\\jenkins\\jobs\\CheckKubernetes\\builds",
+    "\\python-client",
+    "\\python-client\\pexpect"
   ],
-  "SelectedNode": "\\jenkins",
+  "SelectedNode": "\\python-client\\pexpect\\setup-vsz-cluster.py",
   "PreviewInSolutionExplorer": false
 }
