@@ -3,9 +3,11 @@
     "",
     "\\deployment",
     "\\jenkins",
+    "\\jenkins\\jobs",
+    "\\jenkins\\jobs\\SetupVsz",
     "\\python-client",
     "\\python-client\\pexpect"
   ],
-  "SelectedNode": "\\python-client\\pexpect",
+  "SelectedNode": "\\jenkins\\jobs\\SetupVsz\\config.xml",
   "PreviewInSolutionExplorer": false
 }

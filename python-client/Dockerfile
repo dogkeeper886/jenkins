@@ -11,8 +11,8 @@ RUN apt-get install -y vim
 RUN mkdir /root/.ssh
 COPY python-client/config /root/.ssh/
 
-# copy pexpect script
-COPY python-client/pexpect /root/
+# copy start script
+COPY python-client/start.sh /root/
 
 # start
-CMD top -b
+ENTRYPOINT /root/start.sh
