@@ -8,6 +8,6 @@
     "\\python-client",
     "\\python-client\\pexpect"
   ],
-  "SelectedNode": "\\jenkins\\jobs\\SetupVsz\\config.xml",
+  "SelectedNode": "\\python-client\\pexpect\\setup-vsz-cluster.py",
   "PreviewInSolutionExplorer": false
 }
