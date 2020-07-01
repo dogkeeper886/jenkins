@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\deployment",
-    "\\jenkins",
-    "\\python-client"
+    "\\jenkins\\jobs\\CheckKubernetes",
+    "\\jenkins\\jobs\\CheckKubernetes\\builds"
   ],
-  "SelectedNode": "\\deployment\\jenkins-deployment.yaml",
+  "SelectedNode": "\\jenkins",
   "PreviewInSolutionExplorer": false
 }
