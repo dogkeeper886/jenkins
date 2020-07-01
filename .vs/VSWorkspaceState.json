@@ -3,11 +3,9 @@
     "",
     "\\deployment",
     "\\jenkins",
-    "\\jenkins\\jobs\\CheckKubernetes",
-    "\\jenkins\\jobs\\CheckKubernetes\\builds",
     "\\python-client",
     "\\python-client\\pexpect"
   ],
-  "SelectedNode": "\\python-client\\pexpect\\setup-vsz-cluster.py",
+  "SelectedNode": "\\python-client\\pexpect",
   "PreviewInSolutionExplorer": false
 }
