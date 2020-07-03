@@ -1,0 +1,41 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.39">
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>5</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.81">
+    <script>pipeline {
+    agent any
+
+    stages {
+        stage(&apos;Setup vSZ-1&apos;) {
+            steps {
+                echo &apos;Start setup vSZ-1&apos;
+                build job: &apos;SetupVsz&apos;, parameters: [string(name: &apos;vszIp&apos;, value: &apos;192.168.234.234&apos;), string(name: &apos;vszProfile&apos;, value: &apos;H&apos;)], quietPeriod: 60
+            }
+        }
+        stage(&apos;Setup vSZ-2&apos;) {
+            steps {
+                echo &apos;Start setup vSZ-2&apos;
+                build job: &apos;JoinSecondVsz&apos;, parameters: [string(name: &apos;vszIp&apos;, value: &apos;192.168.234.251&apos;), string(name: &apos;vszProfile&apos;, value: &apos;H&apos;), string(name: &apos;clusterIp&apos;, value: &apos;192.168.234.234&apos;)], quietPeriod: 60
+            }
+        }
+       
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>
