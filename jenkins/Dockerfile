@@ -15,3 +15,6 @@ COPY --chown=jenkins:jenkins jenkins/jobs /var/jenkins_home/jobs
 # install app
 RUN apt-get update
 RUN apt-get install -y vim rsync wget
+
+# change user
+USER jenkins

@@ -5,9 +5,8 @@
     "\\jenkins",
     "\\jenkins\\jobs",
     "\\jenkins\\jobs\\SetupVsz",
-    "\\python-client",
-    "\\python-client\\pexpect"
+    "\\python-client"
   ],
-  "SelectedNode": "\\python-client\\pexpect\\setup-vsz-cluster.py",
+  "SelectedNode": "\\python-client\\start.sh",
   "PreviewInSolutionExplorer": false
 }
