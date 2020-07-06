@@ -1,0 +1,70 @@
+Started by upstream project "[8mha:////4CG7AEoAIa11UKo7qYL3QxI+CPMYY60kLiZAVoe7Ql+UAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/az8JH0PYyMDfQCoOfJSvwAAAA==[0mH320" build number [8mha:////4LzeJ1zpq9orqOlFPUNELQJBgTVdOZARpeZ8WYeiIZMyAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBm79rPwkfQ9jIwN9YwCcpa8dwAAAAA==[0m3
+originally caused by:
+ Started by user [8mha:////4L8j2ByaV3Suvc1NWipv3yQgw79bE/oHxlPz/T/d/U25AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9rMTkbABJReJsvwAAAA==[0mjack
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4P2v8AzJdTd2WNiU41CwPd0ihxR7lc4ub8XQu2yPo//eAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4F46IKBIycuOG1q1iPxt2GXTIBh3kHT5pxPumsn0YkwCAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4Ga109M1eK5HwwmEXNvR72dSTr1jwGJX+g+RTDcOZshlAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/jobs/SetHubAp/workspace
+[8mha:////4GZ4YfBFFS8W1zsew2Y8lls0m+n36SJuDEDGjrfU59VyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4J5sdmh2Q4fg8a8ttL6gkQdDQ7Cx+rHJQbU1E/ZuhZbLAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4Bmqc2e0hjm0EQ5gSny6RR3vha5HTYdtO2PtgM7GM5/aAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (SetHubAp)
+[8mha:////4E2wBA+Me3GwapGfyA2LokOsZUFFRTHKtHSoSWVAEwtHAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] echo
+Hello World
+[8mha:////4L0AGu7PM80WNl3NuXaYysNEGidmyvuRxJ6p8S8hRWg4AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI4F2L72ED8v8DEJvAAAAA==[0m[Pipeline] sh
++ kubectl exec jenkins-66b9f89884-5bzkg --container python-client -- python /pexpect/ap-set-hub.py 192.168.144.193
+apIp: 192.168.144.193
+Warning: Permanently added '192.168.144.193' (RSA) to the list of known hosts.
+
+Please login: super
+super
+password : sp-admin
+
+Login incorrect
+
+Please login: Connection to 192.168.144.193 closed.
+Traceback (most recent call last):
+  File "/pexpect/ap-set-hub.py", line 22, in <module>
+    child.expect('rkscli:')
+  File "/usr/local/lib/python3.8/site-packages/pexpect/spawnbase.py", line 343, in expect
+    return self.expect_list(compiled_pattern_list,
+  File "/usr/local/lib/python3.8/site-packages/pexpect/spawnbase.py", line 372, in expect_list
+    return exp.expect_loop(timeout)
+  File "/usr/local/lib/python3.8/site-packages/pexpect/expect.py", line 179, in expect_loop
+    return self.eof(e)
+  File "/usr/local/lib/python3.8/site-packages/pexpect/expect.py", line 122, in eof
+    raise exc
+pexpect.exceptions.EOF: End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x7f7d98386730>
+command: /usr/bin/ssh
+args: [b'/usr/bin/ssh', b'192.168.144.193']
+buffer (last 100 chars): ''
+before (last 100 chars): ' \r\nLogin incorrect\r\n\r\nPlease login: Connection to 192.168.144.193 closed.\r\r\n'
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 302
+child_fd: 5
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile('rkscli:')
+command terminated with exit code 1
+[8mha:////4M1w/6SiUAmBQG8ZUugia4L8DM5gKyfKAn7J6ovMLmdlAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbmRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j/zqggXvAAAAA==[0m[Pipeline] }
+[8mha:////4Dm+JSFpUb6/Iadcw3Lp4HQDwWIykEtVfIjmiabSXw0QAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJoYeVY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfId1tBtv8AExtCpb0AAAA=[0m[Pipeline] // stage
+[8mha:////4LPEDz+ABgeTiunfPOyY8nkka3/gjjbhDxYGPaIQYiLuAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KExM04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8ANQIl770AAAA=[0m[Pipeline] }
+[8mha:////4EBv7rqmNKgXJx/+kjqTL7mL8lwXS9CMlo+M6/+CaAmAAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny7U6Q7T9G7eE2vQAAAA==[0m[Pipeline] // node
+[8mha:////4Bvs9Xbx5dDsl5wsS/EA+rxSLiQJ2BmxPmJZPR5hGDrZAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny7V6Q7T5g9IZ8vQAAAA==[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

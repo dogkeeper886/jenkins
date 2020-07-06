@@ -1,0 +1,148 @@
+Started by user [8mha:////4L8j2ByaV3Suvc1NWipv3yQgw79bE/oHxlPz/T/d/U25AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9rMTkbABJReJsvwAAAA==[0mjack
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4P2v8AzJdTd2WNiU41CwPd0ihxR7lc4ub8XQu2yPo//eAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4F46IKBIycuOG1q1iPxt2GXTIBh3kHT5pxPumsn0YkwCAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4Ga109M1eK5HwwmEXNvR72dSTr1jwGJX+g+RTDcOZshlAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/jobs/JoinSecondVsz/workspace
+[8mha:////4GZ4YfBFFS8W1zsew2Y8lls0m+n36SJuDEDGjrfU59VyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4J5sdmh2Q4fg8a8ttL6gkQdDQ7Cx+rHJQbU1E/ZuhZbLAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4Bmqc2e0hjm0EQ5gSny6RR3vha5HTYdtO2PtgM7GM5/aAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (SetupNetwork)
+[8mha:////4E2wBA+Me3GwapGfyA2LokOsZUFFRTHKtHSoSWVAEwtHAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] echo
+SetupNetwork
+[8mha:////4L0AGu7PM80WNl3NuXaYysNEGidmyvuRxJ6p8S8hRWg4AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI4F2L72ED8v8DEJvAAAAA==[0m[Pipeline] sh
++ kubectl exec jenkins-66b9f89884-5bzkg --container python-client -- python /pexpect/setup-vsz-network.py 192.168.234.251 E
+vszIp: 192.168.234.251
+vszProfile: E
+Warning: Permanently added '192.168.234.251' (ECDSA) to the list of known hosts.
+################################
+#       Welcome to vSZ         #
+################################
+admin@192.168.234.251's password: admin
+
+Please wait. CLI initializing...
+
+[32mWelcome to the Ruckus Virtual SmartZone Command Line Interface
+Version: 5.2.1.0.398[m
+
+[1mhost-192-168-234-251>[m enable
+enable
+Password: admin
+*****
+
+[1mhost-192-168-234-251#[m setup
+setup
+
+################################################
+Start vSZ setup process:
+################################################
+
+************************************************
+vSZ Profile
+************************************************
+1. Essentials
+2. High Scale
+Enter "i" for more information.
+************************************************
+Select vSZ Profile (1/2): 1
+Y
+1
+Y
+WARNING! You cannot change the vSZ profile once you complete setup. Are you sure you want to install the "Essentials" profile? (y/n)[Y] Network is not setup.
+
+************************************************
+IP Version Support
+************************************************
+1. IPv4 only
+2. IPv4 and IPv6
+************************************************
+Select address type: (1/2) 1
+1
+
+************************************************
+IPv4 address setup for Control,Cluster,Management
+************************************************
+1. Manual
+2. DHCP
+************************************************
+Select IP configuration: (1/2) 2
+2
+Primary DNS: 10.10.10.10
+10.10.10.10
+Secondary DNS: 10.10.10.106
+10.10.10.106
+
+************************************************
+Current Network Settings (Before Applying)
+************************************************
+************************************************
+IP Version Support Settings:
+************************************************
+IP Version Support   : IPv4 only
+
+Interface IPv4 settings:
+************************************************
+Control,Cluster,Management:
+************************************************
+IP Type              : DHCP
+IP Address           : 192.168.234.251
+Netmask              : 255.255.255.0
+Gateway              : 192.168.234.1
+
+************************************************
+DNS Server Settings:
+************************************************
+Primary DNS Server   : 10.10.10.10
+Secondary DNS Server : 10.10.10.106
+************************************************
+Warning: The IP address configuration of SZ Node
+is recommended to be fixed-IP address settings.
+Enter 'y' to apply, 'n' to modify
+Do you want to apply the settings? (y/n) y
+y
+Please wait while sytem configures the network.
+It may take a few minutes...
+
+************************************************
+Current Network Settings (After Applying)
+************************************************
+************************************************
+IP Version Support Settings:
+************************************************
+IP Version Support   : IPv4 only
+
+Interface IPv4 settings:
+************************************************
+Control,Cluster,Management:
+************************************************
+IP Type              : DHCP
+IP Address           : 192.168.234.251
+Netmask              : 255.255.255.0
+Gateway              : 192.168.234.1
+
+************************************************
+DNS Server Settings:
+************************************************
+Primary DNS Server   : 10.10.10.10
+Secondary DNS Server : 10.10.10.106
+************************************************
+Enter 'y' to accept, 'n' to modify
+Accept these settings and continue? (y/n) y
+y
+
+[1mhost-192-168-234-251#[m exit
+[8mha:////4M1w/6SiUAmBQG8ZUugia4L8DM5gKyfKAn7J6ovMLmdlAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbmRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j/zqggXvAAAAA==[0m[Pipeline] }
+[8mha:////4Dm+JSFpUb6/Iadcw3Lp4HQDwWIykEtVfIjmiabSXw0QAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJoYeVY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfId1tBtv8AExtCpb0AAAA=[0m[Pipeline] // stage
+[8mha:////4PJMn9xUM+5XgThrvtSpZnhHL11dSc1Ue38MnytVixfHAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYSjSHSIitZywwtMbIwT6y7YF5KKF/E1/oAhEhVb7ay0mucLqhThQNGJzmLvMbVeDGF0uYmJYn8JNImOzqIlTBSsUHZSZOxxQUVsYUlRwkrC2mIbKHl0DBvZ6buug0ZXnzjmbS+h9OYGDyhkNrOO/IU5wvY6mkT48/wVwDwwFDuGsmk+x+oNEzd2msEAAAA=[0m[Pipeline] stage
+[8mha:////4GqKMSCbd5VtyBgsUnBS061RvmMA1fMCLFKblKLG/Gs4AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] { (SetupCluster)
+[8mha:////4K7zyznsEFmg6lxQqHVh4LANXn8yLz+elK8Dczx6Qr8lAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud19ah/eeSmYHb4AAAA=[0m[Pipeline] echo
+JoinSecondVsz
+[8mha:////4CEoULcPz+aWY9lHYNrNkQ9M1XpeM0b9nKbHdDUrjmL3AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr6/2VK+AAAA[0m[Pipeline] sh
++ kubectl exec jenkins-66b9f89884-5bzkg --container python-client -- python /pexpect/join-second-vsz.py 192.168.234.251 192.168.234.234
+python: can't open file '/pexpect/join-second-vsz.py': [Errno 2] No such file or directory
+command terminated with exit code 2
+[8mha:////4JN+CBzPkCXFypbfWjcKIspaDJo0mGt1dqN9Z/7QRs0PAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7NyZXKai+AAAA[0m[Pipeline] }
+[8mha:////4J/JAWVWCk4tgTlmo5cATvASAHhr2p4CeNhDr3589BQIAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyaWwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfMnS0t74AAAA=[0m[Pipeline] // stage
+[8mha:////4DRplhS9L/oEcuUB9NmOikLLUDliQqSZzeX2/tzyuxWpAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREhIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBdnuA5X3ZWC9AAAA[0m[Pipeline] }
+[8mha:////4BKKixvuzN2bPvjlCr6b0Ctyjwpn7udA9VMBHxPoR6mKAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AOf1UXy9AAAA[0m[Pipeline] // node
+[8mha:////4NvkuuiDkcR9sz4stGkydXMRYcWNZEHV4dboVehjMueFAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRdAhR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Qb/eCbPcBwew2Nr0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 2
+Finished: FAILURE

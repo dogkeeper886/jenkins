@@ -1,0 +1,86 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.5">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.81">
+    <parentIds>
+      <string>7</string>
+    </parentIds>
+    <id>8</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.81">
+      <arguments>
+        <entry>
+          <string>job</string>
+          <string>SetHubAp</string>
+        </entry>
+        <entry>
+          <string>parameters</string>
+          <list>
+            <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable plugin="structs@1.20">
+              <symbol>string</symbol>
+              <arguments class="linked-hash-map">
+                <entry>
+                  <string>name</string>
+                  <string>ApIp</string>
+                </entry>
+                <entry>
+                  <string>value</string>
+                  <string>192.168.144.193</string>
+                </entry>
+              </arguments>
+            </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+          </list>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.40">
+      <startTime>1594000939811</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+    <wf.a.LabelAction plugin="workflow-api@2.40">
+      <displayName>Building SetHubAp</displayName>
+    </wf.a.LabelAction>
+    <wf.a.ErrorAction plugin="workflow-api@2.40">
+      <error class="org.jenkinsci.plugins.workflow.steps.FlowInterruptedException" plugin="workflow-step-api@2.22">
+        <stackTrace>
+          <trace>org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerListener.onCompleted(BuildTriggerListener.java:53)</trace>
+          <trace>hudson.model.listeners.RunListener.fireCompleted(RunListener.java:209)</trace>
+          <trace>org.jenkinsci.plugins.workflow.job.WorkflowRun.finish(WorkflowRun.java:599)</trace>
+          <trace>org.jenkinsci.plugins.workflow.job.WorkflowRun.access$800(WorkflowRun.java:137)</trace>
+          <trace>org.jenkinsci.plugins.workflow.job.WorkflowRun$GraphL.onNewHead(WorkflowRun.java:1026)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.notifyListeners(CpsFlowExecution.java:1463)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$3.run(CpsThreadGroup.java:488)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.run(CpsVmExecutorService.java:38)</trace>
+          <trace>hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:131)</trace>
+          <trace>jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)</trace>
+          <trace>jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:59)</trace>
+          <trace>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)</trace>
+          <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+          <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</trace>
+          <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</trace>
+          <trace>java.lang.Thread.run(Thread.java:748)</trace>
+        </stackTrace>
+        <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+          <c class="list"/>
+          <list reference="../c"/>
+        </suppressedExceptions>
+        <result>
+          <name>FAILURE</name>
+          <ordinal>2</ordinal>
+          <color>RED</color>
+          <completeBuild>true</completeBuild>
+        </result>
+        <causes class="java.util.Arrays$ArrayList">
+          <a class="jenkins.model.CauseOfInterruption-array">
+            <org.jenkinsci.plugins.workflow.support.steps.build.DownstreamFailureCause plugin="pipeline-build-step@2.12">
+              <id>SetHubAp#19</id>
+            </org.jenkinsci.plugins.workflow.support.steps.build.DownstreamFailureCause>
+          </a>
+        </causes>
+        <actualInterruption>false</actualInterruption>
+      </error>
+    </wf.a.ErrorAction>
+  </actions>
+</Tag>

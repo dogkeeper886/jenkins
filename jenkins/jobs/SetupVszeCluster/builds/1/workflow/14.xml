@@ -1,0 +1,76 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.5">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.81">
+    <parentIds>
+      <string>13</string>
+    </parentIds>
+    <id>14</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.81">
+      <arguments>
+        <entry>
+          <string>job</string>
+          <string>JoinSecondVsz</string>
+        </entry>
+        <entry>
+          <string>parameters</string>
+          <list>
+            <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable plugin="structs@1.20">
+              <symbol>string</symbol>
+              <arguments class="linked-hash-map">
+                <entry>
+                  <string>name</string>
+                  <string>vszIp</string>
+                </entry>
+                <entry>
+                  <string>value</string>
+                  <string>192.168.234.251</string>
+                </entry>
+              </arguments>
+            </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+            <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable plugin="structs@1.20">
+              <symbol>string</symbol>
+              <arguments class="linked-hash-map">
+                <entry>
+                  <string>name</string>
+                  <string>vszProfile</string>
+                </entry>
+                <entry>
+                  <string>value</string>
+                  <string>E</string>
+                </entry>
+              </arguments>
+            </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+            <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable plugin="structs@1.20">
+              <symbol>string</symbol>
+              <arguments class="linked-hash-map">
+                <entry>
+                  <string>name</string>
+                  <string>clusterIp</string>
+                </entry>
+                <entry>
+                  <string>value</string>
+                  <string>192.168.234.234</string>
+                </entry>
+              </arguments>
+            </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+          </list>
+        </entry>
+        <entry>
+          <string>quietPeriod</string>
+          <int>60</int>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.40">
+      <startTime>1593750320872</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+    <wf.a.LabelAction plugin="workflow-api@2.40">
+      <displayName>Building JoinSecondVsz</displayName>
+    </wf.a.LabelAction>
+  </actions>
+</Tag>
