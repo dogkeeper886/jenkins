@@ -4,9 +4,14 @@ metadata:
   name: jenkins
 spec:
   ports:
-  - port: 8080
+  - name: web
+    port: 8080
     protocol: TCP
     targetPort: 8080
+  - name: tunnel
+    port: 50000
+    protocol: TCP
+    targetPort: 50000
   selector:
     app: jenkins
   type: NodePort
