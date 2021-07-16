@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: jenkins
+  name: jenkins
+spec:
+  selector:
+    matchLabels:
+      app: jenkins
+  template:
+    metadata:
+      labels:
+        app: jenkins
+    spec:
+      containers:
+      - image: jenkins/jenkins:lts-jdk11
+        name: jenkins
+        volumeMounts:
+        - mountPath: /var/jenkins_home
+          name: csi-data-cinderplugin
+      securityContext:
+        fsGroup: 1000
+      volumes:
+      - name: csi-data-cinderplugin
+        persistentVolumeClaim:
+          claimName: csi-pvc-cinderplugin
