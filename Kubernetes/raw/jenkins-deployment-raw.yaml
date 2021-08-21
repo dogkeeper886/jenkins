@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: jenkins
+  name: jenkins
+spec:
+  selector:
+    matchLabels:
+      app: jenkins
+  template:
+    metadata:
+      labels:
+        app: jenkins
+    spec:
+      containers:
+      - image: jenkins/jenkins:lts-jdk11
+        name: jenkins
+        volumeMounts:
+        - mountPath: /var/jenkins_home
+          name: jenkins-raw-pvc
+      securityContext:
+        fsGroup: 1000
+      volumes:
+      - name: jenkins-raw-pvc
+        persistentVolumeClaim:
+          claimName: jenkins-raw-pvc
