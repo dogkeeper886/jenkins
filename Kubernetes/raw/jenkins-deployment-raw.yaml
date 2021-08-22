@@ -18,10 +18,10 @@ spec:
         name: jenkins
         volumeMounts:
         - mountPath: /var/jenkins_home
-          name: jenkins-raw-pvc
+          name: jenkins-volume
       securityContext:
         fsGroup: 1000
       volumes:
-      - name: jenkins-raw-pvc
+      - name: jenkins-volume
         persistentVolumeClaim:
-          claimName: jenkins-raw-pvc
+          claimName: jenkins-pvc
