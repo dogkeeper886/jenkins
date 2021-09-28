@@ -18,10 +18,10 @@ spec:
         name: jenkins
         volumeMounts:
         - mountPath: /var/jenkins_home
-          name: csi-data-cinderplugin
+          name: jenkins-csi-volume
       securityContext:
         fsGroup: 1000
       volumes:
-      - name: csi-data-cinderplugin
+      - name: jenkins-csi-volume
         persistentVolumeClaim:
-          claimName: csi-pvc-cinderplugin
+          claimName: jenkins-csi-pvc
